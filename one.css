@@ -75,10 +75,10 @@ margin-left: 15vw;
 height: 90vh;
 }
 .video{
-    width: 100vw;
+    width: 70vw;
     margin-right: 10vw;
     margin-left: 15vw;
-    height: 60vh;
+    height: 73vh;
 }
 .logo{
     width:30vw;
@@ -96,7 +96,9 @@ height: 90vh;
     background: #fff;
     width: 100vw;
     height: 10vh;
-    padding: 2rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right:  2rem;
 }
 .redline{
     position: fixed;
