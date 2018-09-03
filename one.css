@@ -1,0 +1,129 @@
+@charset "utf-8";
+/*CSS document for cats website, */
+/*Developed by Larisa Sabalin*/
+/*Script date: January 7, 2018*/
+body {
+  margin: 0;
+  background: #fff;
+  font-family: 'Rokkitt', serif;
+}
+
+.title{
+  color: #f54555;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.center{
+  text-align: center;
+}
+h1{
+  color: #fff;
+  font-family: 'Rokkitt', serif;
+  font-size: 24px;
+}
+h2{
+color: #020222;
+ font-family: 'Rokkitt', serif;
+ font-size: 18px;
+}
+p, label{
+  color: #000;
+  font-family: 'Rokkitt', serif;
+  font-size: 4vw;
+  font-size: 16px;
+  font-weight: bolder;
+  letter-spacing: 1.2px;
+
+}
+.background {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+z-index: -100;
+}
+.background img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+  }
+
+
+.form {
+  letter-spacing: 0.8px;
+  width: 100%;
+  font-weight:100;
+  background: rgba(255,255,255,0.8);
+  color: #000;
+  padding: 2rem;
+  margin-bottom: 3rem;
+
+}
+.document{
+width: 70vw;
+margin-right: 10vw;
+margin-left: 10vw;
+height: 90vh;
+}
+.logo{
+    width:30vw;
+    position: fixed;
+}
+.text{
+    width: 70vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+.spaceAbove{
+    margin-top: 10%;
+}
+.top{
+    background: #fff;
+    width: 100vw;
+    height: 10vh;
+    padding: 2rem;
+}
+.redline{
+    position: fixed;
+    background: red;
+    height: 1vh;
+    width: 100vw;
+}
+/*
+font-family: 'Rokkitt', serif;
+font-family: 'Yatra One', cursive;
+font-family: 'Nova Mono', monospace;
+font-family: 'Indie Flower', cursive;
+font-family: 'Sacramento', cursive;
+font-family: 'Shadows Into Light Two', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Fugaz One', cursive;
+font-family: 'Bevan', cursive;
+font-family: 'Cabin Sketch', cursive;
+
+Color	Hex	RGB
+blue dark
+#335577	(51,85,119)
+#bb7799	(187,119,153)
+#eeaabb	(238,170,187)
+pink
+#ccbbbb	(204,187,187)
+blue pale
+#558899	(85,136,153)
+yellow bright
+#fdea7b	(253,234,123)
+peach
+#ffb679	(255,182,121)
+grey
+#515151	(81,81,81)
+greyer
+#383838	(56,56,56)
+almost black
+#111111	(17,17,17)*/
