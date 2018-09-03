@@ -80,6 +80,24 @@ height: 90vh;
     margin-left: 15vw;
     height: 73vh;
 }
+.video-container {
+position: relative;
+padding-bottom: 82.25vh;
+padding-top: 4vh;
+height: 0;
+overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+position: absolute;
+margin-left: 15vw;
+margin-right: 10vw;
+width: 70vw;
+height: 90vh;
+}
+
 .logo{
     width:30vw;
     position: fixed;
