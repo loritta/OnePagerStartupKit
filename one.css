@@ -84,9 +84,8 @@ height: 90vh;
 .video-container,
 .pdf-container {
 position: relative;
-padding-bottom: 82.25vh;
+padding-bottom: 18vh;
 padding-top: 4vh;
-height: 0;
 overflow: hidden;
 }
 
@@ -100,7 +99,12 @@ margin-right: 10vw;
 width: 70vw;
 height: auto;
 }
-
+.pdfPhoto{
+    width: 70vw;
+    height: auto;
+    margin-right: 10vw;
+    margin-left: 15vw;
+}
 
 .logo{
     width:30vw;
